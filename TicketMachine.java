@@ -100,12 +100,20 @@ public class TicketMachine
         return amountToRefund;
         
     }
-    public boolean repOk() {
+    public boolean repOK() {
         if (balance == 0 ) {
             return true;    
         }
         return false; 
     
     }
-}
+    public boolean mil() {
+        if (balance > 1000) {
+            return true; 
+        } else { 
+            return false;
+        
+    }
 
+}
+}
